@@ -1,0 +1,21 @@
+body {
+  background-color: tan; 
+}
+ul {
+  color: blue
+}
+li:nth-child(4){
+    color: green
+  } 
+h1 {
+  font-style: fantasy;
+  text-align: center;
+  font-size: 200%;
+  background-color: green 
+}
+#quizLink{
+  color: red;
+}
+footer {
+  font-style: italic;
+}
