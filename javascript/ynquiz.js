@@ -1,5 +1,8 @@
 'use strict';
 
+var userName = prompt('what was your name again?')
+alert('Thanks ' + userName + ' lets start the quiz!')
+
 var questionOne = prompt('Yes or No, the bagpipes are my favorite instrument to play')
 // console.log(questionOne, 'test');
 if (questionOne.toLowerCase() === 'yes'){
@@ -45,3 +48,4 @@ if (questionFive.toLowerCase() === 'yes'){
   alert('I\'m sorry, that is incorrect')
   document.write('<li>For question one you answered ' + questionFive + '. that was incorrect, the name of the album my band just released is <i>Isolate</i></li>')
 }
+alert('Thanks for taking the time to learn about me ' + userName + '. Send me a link to a page where i can learn about you! Lets see how you did on the Quiz')
