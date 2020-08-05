@@ -16,6 +16,9 @@ h1 {
 #quizLink{
   color: red;
 }
+.ynquizlink{
+  color: blueviolet;
+}
 footer {
   font-style: italic;
 }
