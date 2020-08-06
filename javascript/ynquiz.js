@@ -48,4 +48,62 @@ if (questionFive.toLowerCase() === 'yes'){
   alert('I\'m sorry, that is incorrect')
   document.write('<li>For question one you answered ' + questionFive + '. that was incorrect, the name of the album my band just released is <i>Isolate</i></li>')
 }
+
+// loops
+var correctAnswer = '5';
+var i = 0
+
+
+while(i < 4){
+  var userAnswer = prompt('The Legend of Dragoon was placed at what number on my top 10 favorite Video Games list?');
+   if(userAnswer === correctAnswer){
+      alert('DING DING DING, THAT IS CORRECT!!!');
+      document.write('<li>For question six you answered ' + userAnswer + '. THAT IS CORRECT!!!!</li>')
+      break;
+  } if(i === 3 && userAnswer !== correctAnswer){
+       alert('Im sorry, the correct answer is number 5');
+       document.write('<li>For question six you answered ' + userAnswer + '. that was incorrect</li>');
+       break;
+    } if (userAnswer < correctAnswer){
+            alert('Incorrect, too low, try again');
+    } if (userAnswer > correctAnswer){
+            alert('Incorrect, too high, try again');
+    } i++;
+ }
+
+
+// // Nested Loop
+
+// setting the array
+var favGame = ['the legend of zelda: ocorina of time', 'chrono trigger', 'the legend of zelda: link\'s awakening', 'final fantasy 7', 'lunar: silver star story complete', 'lunar 2: eternal blue complete', 'the legend of zelda: breath of the wild', 'the legend of zelda']
+
+
+var count = 0;
+
+// open while loop
+while(count < 6){
+
+var questionSeven = prompt('Other than the Legend of Dragoon, can you name another game from my top 10 list?');
+
+
+for(var i = 0; i < favGame.length; i++){    // open nested for loop inside while loop
+  if(questionSeven.toLowerCase() === favGame[i]){  // checking the user answer to all possible answers in array
+    alert('CORRECT!!!!!!!')
+    document.write('<li>For question seven you answered ' + questionSeven + '. THAT IS CORRECT!!!!</li>');
+    count = 6 // if the answer is correct the count is set to 6 to get out of the while loop
+    break;    // and the break gets us out of the for loop
+  } 
+  if(count === 5 && questionSeven.toLowerCase() !== favGame[i]){ // if the answer is incorrect on last try, print to screen
+    alert('sorry no more tries');
+    document.write('<li>For question seven you answered ' + questionSeven + '. that was Incorrect, refer to home page to see top 10 list of games.</li>')
+    count = 6
+    break;
+  }
+ }
+
+ if(count !== 6){            // if the answer is incorrect
+   alert('sorry, Try again');
+  }
+ count++                  // adding to the count for the while loop
+ }
 alert('Thanks for taking the time to learn about me ' + userName + '. Send me a link to a page where i can learn about you! Lets see how you did on the Quiz')
