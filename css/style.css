@@ -7,6 +7,14 @@ ul {
 #pipe{
   color: green
 }
+#Khist{
+  color: darkcyan
+}
+#game{
+  border: solid black;
+  color: gold;
+  background-color: black
+}
 h1 {
   font-style: fantasy;
   text-align: center;
