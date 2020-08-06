@@ -115,4 +115,6 @@ for(var i = 0; i < favGame.length; i++){    // open nested for loop inside while
  count++                  // adding to the count for the while loop
  }
 
+ document.write(userName + ", you got " + finalScore + " out of 7 correct.")
+ 
 alert('Thanks for taking the time to learn about me ' + userName + '. You final score is ' + finalScore + ' out of 7. Send me a link to a page where i can learn about you! Lets see how you did on the Quiz')
