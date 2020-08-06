@@ -2,13 +2,14 @@ body {
   background-color: tan; 
 }
 ul {
-  color: blue
+  color: blue;
 }
 #pipe{
-  color: green
+  color: green;
 }
 #Khist{
-  color: darkcyan
+  color: black;
+  background-color: whitesmoke;
 }
 #game{
   border: solid black;
