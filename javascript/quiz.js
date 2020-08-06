@@ -75,7 +75,7 @@ while(i < 4){
 // // Nested Loop
 
 // setting the array
-var favGame = ['o triggthe legend of zelda: ocorina of time', 'chroner', 'the legend of zelda: link\'s awakening', 'final fantasy 7', 'lunar: silver star story complete', 'lunar 2: eternal blue complete', 'the legend of zelda: breath of the wild', 'the legend of zelda']
+var favGame = ['the legend of zelda: ocorina of time', 'chroner', 'the legend of zelda: link\'s awakening', 'final fantasy 7', 'lunar: silver star story complete', 'lunar 2: eternal blue complete', 'the legend of zelda: breath of the wild', 'the legend of zelda']
 
 
 var count = 0;
