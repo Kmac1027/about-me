@@ -6,7 +6,6 @@ var finalScore = 0;
 
 function questionOne() {
   var questionOne = prompt('What is my favorite instruments to play?');
-  // console.log(questionOne, 'test');
   if (questionOne.toLowerCase() === 'bagpipes') {
     alert('THAT IS CORRECT!!!');
     finalScore++;
@@ -20,7 +19,6 @@ questionOne();
 
 function questionTwo() {
   var questionTwo = prompt('What is name of the band i play in?');
-  // console.log(questionTwo, 'test');
   if (questionTwo.toLowerCase() === 'deathbreaker') {
     alert('THAT IS CORRECT!!!');
     finalScore++;
@@ -35,7 +33,6 @@ questionTwo();
 
 function questionThree(){
   var questionThree = prompt('What label is my band currently signed to?');
-  // console.log(questionThree, 'test');
   if (questionThree.toLowerCase() === 'facedown' || questionThree.toLowerCase() === 'facedown records') {
     alert('THAT IS CORRECT!!!');
     finalScore++;
@@ -49,7 +46,6 @@ questionThree();
 
 function questionFour() {
   var questionFour = prompt('How many years have we been touring the USA?');
-  // console.log(questionFour, 'test');
   if (questionFour.toLowerCase() === '5' || questionFour.toLowerCase() === 'five') {
     alert('THAT IS CORRECT!!!');
     finalScore++;
@@ -63,7 +59,6 @@ questionFour();
 
 function questionFive() {
   var questionFive = prompt('What is the name of the record we just released on Facedown Records?');
-  // console.log(questionFive, 'test');
   if (questionFive.toLowerCase() === 'isolate') {
     alert('THAT IS CORRECT!!!');
     finalScore++;
