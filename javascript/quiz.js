@@ -119,13 +119,15 @@ function questionSeven() {
     for (var j = 0; j < favGame.length; j++) {    // open nested for loop inside while loop
       if (questionSeven.toLowerCase() === favGame[j]) {  // checking the user answer to all possible answers in array
         alert('CORRECT!!!!!!!');
+        alert('the rest of the list is ' + favGame )
         finalScore++;
         document.write('<li>For question seven you answered ' + questionSeven + '. THAT IS CORRECT!!!!</li>');
         count = 6; // if the answer is correct the count is set to 6 to get out of the while loop
         break;    // and the break gets us out of the for loop
       }
       if (count === 5 && questionSeven.toLowerCase() !== favGame[j]) { // if the answer is incorrect on last try, print to screen
-        alert('sorry no more tries');
+        // alert('sorry no more tries');
+        alert('Sorry, no more tries, the rest of the list is ' + favGame);
         document.write('<li>For question seven you answered ' + questionSeven + '. that was Incorrect, refer to home page to see top 10 list of games.</li>');
         count = 6;
         break;
